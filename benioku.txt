@@ -1,19 +1,19 @@
-Proje Kodları 	        -->> 	App klasorunde
-Analiz Dökümanı 	-->>	Analiz Dokumani.docx
+Proje KodlarÄ± 	        -->> 	App klasorunde
+Analiz DÃ¶kÃ¼manÄ± 	-->>	Analiz Dokumani.docx
 Test Raporu  		-->>   	Test-Raporu.docx
-Veri tabanı tasarımı 	-->>	veritabanıdiagram.jpeg
-Alternatif Görseller    -->>    mockup Klasörü
+Veri tabanÄ± tasarÄ±mÄ± 	-->>	veritabanÄ±diagram.jpeg
+Alternatif GÃ¶rseller    -->>    mockup KlasÃ¶rÃ¼
 
 
-Konu: Yazılım yaşam döngüsü hakkında eğitici uygulama
+Konu: YazÄ±lÄ±m yaÅŸam dÃ¶ngÃ¼sÃ¼ hakkÄ±nda eÄŸitici uygulama
 
 Uygulama Google Play Linki:
 
 
 
-Grup Üyeleri:
-Eren Kaya	G141210071
-Mesut Cem Yıldız	G141210067
-Berkan Aydın	g141210086
-Muhammed Zeki Akın G141210039
-Mahmut Canbolat		B161210392
+Grup Ãœyeleri:
+Eren Kaya	          G141210071
+Mesut Cem YÄ±ldÄ±z	  G141210067
+Berkan AydÄ±n	      G141210086
+Muhammed Zeki AkÄ±n  G141210039
+Mahmut Canbolat		  B161210392
