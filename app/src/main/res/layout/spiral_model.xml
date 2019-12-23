@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#C2380A"
+        android:layout_height="wrap_content"
+        android:text="SPİRAL MODEL"
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:text="Bu modelde risk analizi ön plana çıkmıştır. Yinelemeli artımsal bir yaklaşım vardır. Her döngü bir fazı ifade eder ve doğrudan adım tanımlama gibi bir faz yoktur. Ayrıca prototip yaklaşımı vardır. Bu modelde süreç 4 gruba ayrılır\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="1.Planlama"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10" />
+
+    <TextView
+        android:text="Üretilecek ara ürün için planlama, amaç belirleme, bir önceki adımda üretilen ara ürün ile bütünleştirme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="2.Risk Analizi"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10"
+        />
+
+    <TextView
+        android:text="Risk seçeneklerinin araştırılması ve risklerin belirlenmesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="3.Üretim"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10"/>
+
+    <TextView
+        android:text="Ara ürünün üretilmesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="4.Kullanıcı Değerlendirmesi"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10" />
+
+    <TextView
+        android:text="Ara ürün ile ilgili olarak kullanıcı tarafından yapılan sınama ve değerlendirmeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/spiral"
+        android:id="@+id/imageView6" />
+
+    <TextView
+        android:text="\nBu modelin avantajları vardır. İlki üretim süreci boyunca ara ürün üretme ve üretilen ara ürünün kullanıcı tarafından sınanması temeline dayanır. Yazılımı kullanacak personelin sürece erken katılması ileride oluşabilecek istenmeyen durumları engeller. Diğer bir avantajı gerek proje sahibi, gerekse yüklenici tarafındaki yöneticiler, çalışan yazılımlarla proje boyunca karşılaştıkları için daha kolay izleme ve hak ediş planlaması yapılır. Avantajlarından biri de yazılımın kodlanması ve sınanması daha erken başlar."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+</ScrollView>

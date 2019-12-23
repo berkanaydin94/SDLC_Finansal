@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"  >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#C2380A"
+        android:layout_height="wrap_content"
+        android:text="SDLC NEDİR "
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Her geliştirme işlemi özellikle de ürün geliştirme işlemi belirli aşamalar içerir. Yazılımların da birer ürün olduğu unutulmamalıdır. Bu bağlamda nasıl bir otomobil, bir uçak veya bir televizyonun geliştirilmesi için çeşitli aşamalardan bahsetmek mümkünse, yazılım için de benzer aşamalar mevcuttur. Genel olarak bu ürünlerin tamamını birer sistem olarak görmek ve sistem geliştirme metodolojisi ismi altında incelemek mümkündür.\n"
+        android:layout_width="match_parent"
+        android:textColor="#8B008B"
+        android:layout_height="wrap_content"
+        android:id="@+id/birincitv" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/sdcl1"
+        android:id="@+id/imageView2"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="1)Planlama ve Seçim Safhası"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="*Sistem öncelikleri\n*Veri, ağ, donanım ve bilgi sisteminin mimarisi\n*Seçilmiş olan proje için detaylı çalışma planı\n*Sistemin geçerlilik alanı için özellikler\n*Sistemin iş akışı açısından önemi"
+        android:layout_width="match_parent"
+        android:textColor="#8B008B"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="2)Sistem Tahlili"
+        android:textColor="#000"
+
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="*Mevcut sistemin tanımı\n*Mevcut sistemin düzeltilmesi, iyileştirilmesi, değiştirilmesi için öneriler\n*Muhtelif sistemler için açıklamalar ve alternatiflerin değerlendirilmesi\n*Yeni teknoloji gereksinimlerinin belirlenmesi ve geçiş için öneriler\n"
+        android:layout_width="match_parent"
+        android:textColor="#8B008B"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="3)Sistem Tasarımı"
+        android:textColor="#000"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#8B008B"
+        android:text="*Sistemin bütün alt bileşenleri için detaylı birer tasarım\n"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="4)Uyarlama ve İşletme"
+        android:textColor="#000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#8B008B"
+        android:text="*Kod\n*Dokümantasyon\n*Eğitim ve destek kaynakları\n*Yeni sürüm için kod, eğitim ve destek aşamalarındaki değişiklikler"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/sdlc"
+        android:id="@+id/imageView3" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textColor="#8B008B"
+    android:text="Bu dört aşama aslında bir dairenin merhaleleridir. Yani bütün aşamalar tamamlandıktan sonra tekrar başa dönülerek herşey yeniden devam eder. Bunu örneğin piyasadaki ürünlerin yaşamlarının son bulması ve yeniden yeni ürünlerin piyasaya girmesi olarak görmek mümkündür. Aslında her yazılımın da bir ömrü vardır ve bu ömür tamama erdikten sonra yazılımda gerekli yenilemeler ve değişikliklerle yeni yazılım müşterinin / kurumun hizmetine sunulur ve bu süreç bir süreklilik arz eder."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#8B008B"
+        android:text="Ayrıca yukarıdaki 4 adımdan oluşan SDLC yaklaşımı için alternatif olarak sunulan yöntemler veya araçlardan da bahsetmek mümkündür.
+Örneğin bilgisayar destekli yazılım mühendisliği araçları (computer allied software engineering, CASE tools), ortak uygulama tasarımı (joint analysis design, JAD), hızlı uygulama geliştirme (rapid application development, RAD), katılımcı tasarım (participatory design, PD), atik yöntemler (agile methodologies) gibi farklı birer yazı konusu olan yöntemler kullanılabilir.\n"
+
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

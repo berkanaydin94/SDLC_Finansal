@@ -1,0 +1,19 @@
+Proje Kodlarý 	        -->> 	App klasorunde
+Analiz Dökümaný 	-->>	Analiz Dokumani.docx
+Test Raporu  		-->>   	Test-Raporu.docx
+Veri tabaný tasarýmý 	-->>	veritabanýdiagram.jpeg
+Alternatif Görseller    -->>    mockup Klasörü
+
+
+Konu: Yazýlým yaþam döngüsü hakkýnda eðitici uygulama
+
+Uygulama Google Play Linki:
+
+
+
+Grup Üyeleri:
+Eren Kaya	G141210071
+Mesut Cem Yýldýz	G141210067
+Berkan Aydýn	g141210086
+Muhammed Zeki Akýn G141210039
+Mahmut Canbolat		B161210392

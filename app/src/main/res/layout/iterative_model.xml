@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#C2380A"
+        android:layout_height="wrap_content"
+        android:text="ITERATIVE MODEL"
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:text="Modelde bir döngü söz konusudur. Planlama aşaması ile başlar. Planlamalardan geçip bu planlamanın ardından bir döngüye girilir. İstek analizleri, analizler, tasarımlar yapılır ve uygulamaya geçilir. Uygulamadan sonra iki durum söz konusudur. Birincisi canlıya geçiş durumudur. Deployment edilir ve tabi problemler her aşamada olduğu gibi bu aşamada da yaşanır. Ama bu problemler testlerin birer parçası olarak görülebilir.\n\n
+        Bir yandan da testlerimiz devam eder. Bu problemler sistemi besler. Testlerden ve canlıdan gelen bilgilere göre tekrar değerlendirilmeye tabii tutulur. Sonra tekrar istek analiz, analizler, canlıya bir bilgi verilmesi ve tekrar testler gibi
+süren bir döngü vardır. Bu sırada planlamada değişiklikler olabilir\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/iterative"
+        android:id="@+id/imageView4"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:text="\nÖrneğin; tekstil firmasına yazılım yazılıyor olsun. Tekstil firması iç süreçler değişebilir. Web sayfası üzerinden satış yapılıyor olsun. Web sayfası ile ilgili yeni ihtiyaçlar gelmeye başlar. Bir yandan yazılımın çalışan hali ile ilgili bir problemler ortaya çıkar. Bir yandan da “Orada şu modüle şu ekranı da ekleyelim” gibi fikirler, yeni istekler çıkmaya başlar. İşte bütün bunlar arttırımlı modelde her seferinde arttırıla arttırıla bir iterasyon şeklinde devam eder ve her yenilik bir sonraki iterasyonda sürece dâhil edilir."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/iterative2"
+        android:id="@+id/imageView5" />
+</LinearLayout>
+</ScrollView>

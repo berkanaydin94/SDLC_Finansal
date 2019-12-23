@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#C2380A"
+        android:layout_height="wrap_content"
+        android:text="AGILE MODEL"
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:text="Çevik yazılım geliştirme metodu, tekrarlanan yazılım geliştirme metodu taban alınarak geliştirilmiş, sık aralıklarla parça parça yazılım teslimatını ve değişikliği teşvik eden bir yazılım geliştirme metodolojisidir. \n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Çevik Yazılım Metot İlkeleri\n"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10"/>
+
+    <TextView
+        android:text="1-Birinci öncelik, müşteriye hızlı ve sürekli olarak kullanılabilir yazılım teslimatı yapmaktır.\n
+2-Kodlamanın ilerleyen safhalarında bile gereksinim değişiklikleri kabul edilir, esneklik vardır.\n
+3-Sık aralıklarla çalışan kaliteli yazılım teslimatı (birkaç haftadan birkaç aya kadar değişen aralıklar).\n
+4-Müşteri /iş birimleri, yazılımcılar, analistler birebir iletişim halinde ve birlikte çalışırlar.\n
+5-İyi projeler motivasyonu yüksek kişiler etrafında kurulabilir. Ekibe ihtiyaç duydukları desteği ve ortamı sağlamak ve onlara güvenmek önemlidir.\n
+6-Ekip içinde kaliteli bilgi paylaşımının en etkin yolu yüzyüze iletişimdir.\n
+7-İlerlemenin birincil ölçüsü çalışan bir yazılımdır.\n
+8-Basitlik önemli ve gereklidir.\n
+9-Çevik yöntemler, mümkün olduğu kadar aynı tempoda ve sürdürülebilir geliştirmeye önem verir.\n
+10-Güçlü teknik alt yapı ve tasarım çevikliği arttırır.\n
+11-En iyi mimari ve tasarımlar kendi kendini organize edebilen ekiplerden çıkar.\n
+12-Ekip düzenli aralıklarla daha etkin çalışmanın yollarını sorgular ve buna göre aksiyon alır.\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/agile"
+        android:id="@+id/imageView7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="AVANTAJLARI\n"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10"/>
+
+
+    <TextView
+        android:text="Bir kere ekip ruhu kazandırır
+Planlama ve yürütme bir arada olduğu için sürdürülebilir kalite sağlar
+Ayrıntılı plan süreçleri yerine iteratif planlar (tekrar eden süreçler) uygulanır
+Müşteri ihtiyaçlarına uygunluk önemlidir, sık sık ürün çıktısı verilir ve müşteriden gelen geri bildirimlerle ihtiyaca uygun, doğru ürün çıkarılır."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="DEZAVANTAJLARI\n"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:ems="10"/>
+    <TextView
+        android:text="Kurumsal bir yapıda uygulamak için ciddi anlamda zorlanırsınız
+Hedefler kısa vadeli olduğu için ekip üzerinde sonuç baskısı oluşabilir
+Kısa süreli ürün teslimi sonucunda gelen geri bildirimlerle çalışma sürelerinin artması muhtemeldir
+Dokümantasyon konusundaki bilinen birçok şeyin, tabiri caizse, “gereksiz” kılınması durumu vardır."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
+</ScrollView>

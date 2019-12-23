@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     android:layout_above="@+id/livv"
+        android:id="@+id/kaydedilenlv"
+        ></ListView>
+
+    <LinearLayout
+        android:id="@+id/livv"
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="40dp">
+        <EditText
+            android:layout_weight="0.3"
+            android:id="@+id/tv_kaydet_k"
+            android:layout_width="wrap_content"
+            android:hint="Kelime"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="0.5"
+            android:id="@+id/tv_kaydet_a"
+            android:layout_width="wrap_content"
+            android:hint="Açıklama"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kaydedilen_ekle"
+            android:text="Ekle"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

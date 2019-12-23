@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#C2380A"
+        android:layout_height="wrap_content"
+        android:text="WATERFALL MODEL"
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:text="Model basitçe bir şelalenin dökülmesine benzer şekilde yazılım geliştirme sürecinin adımları arasındaki geçişi modellemektedir\n Temelde bu aşamalar 4 ana grupta toplanır. \n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        />
+
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:text="
+        *Analiz\n      *Tasarım\n      *Uygulama\n     *Test\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/water"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="Yazılım mühendisliğindeki diğer modellere temel teşkil eden bu modelde yukarıdaki aşamalar sırasıyla izlenir. Aşamalar arası geçişleri oldukça sıkı olan bu modelde geri dönüşler oldukça maliyetli olmaktadır.\n
+Buna göre ilk aşamada sistemin analiz yapılır ve uygulanmak istenen yapı tam olarak ortaya konulur. Bu tahlil aşamasından sonra SRS (Software requirements specifications , yazılım ihtiyaç özellikleri) ismi verilen bir doküman ve bu dokümanla birlikte analiz raporu çıkarılır.\n
+Sonra bu analiz ışığında bir  tasarım yapılır ve çözüm yolları ortaya konulur.  Tasarım aşaması sonunda da SDD (Software design document, tasarım, yazılım tasarım dokümanı) adı verilen bir doküman hazırlanır.\n
+İsteklerin ve çözümlerinin dokümantasyonunun ardından uygulamaya geçilir ve bu çözümler tatbik edilir. Bu aşamadan sonra sistem somut bir hâl almış olur ve yapılan hataları daha net görme imkanı doğar. Bu hataların tam olarak ortaya konulduğu aşama ise test aşamasıdır. Bu son aşamadan sonra bir test raporu çıkarılarak gerekli adımlara geri dönülür ve hatalar telafi edilerek sistem istenen hale getirilir.\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Şelale Modeline Eleştirel Bakış\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="Waterfall model uzun süreli projeler için tercih edilmemelidir. Çünkü,  müşteri gereksinimleri zaman içinde değişime uğrayabilir ve proje başlangıcında her detayı göz önünde bulundurmak mümkün olmayabilir. Projelerin bir kaç sene sürdüğünü düşündüğümüzde piyasa ve rekabet koşullarıyla birlikte  gereken değişiklikler oluştuğunda, waterfall modelde safhaların tekrar en baştan uygulanması gerekir ve bu proje maliyetini arttırır.\n
+
+Waterfall modeli koşulların iyi bilindiği, ürün tanımının net olarak yapılabildiği, belirsiz gereksinimleri olmayacak, esnek projelerde kullanılmaldıır.  Projenin kalitesinin, projenin süreç ve maliyetinden  daha önemli olduğu koşullarda tercih edilmelidir. Örnek vermek gerekirse e-ticaret websitesi ve portal geliştirme yazılımları"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7" />
+
+
+</LinearLayout>
+</ScrollView>

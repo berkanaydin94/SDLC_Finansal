@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#C2380A"
+        android:layout_height="wrap_content"
+        android:text="YAZILIM GELİŞTİRME MODELLERİ"
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textView1"
+            android:text="Yazılım geliştiriciler, işlerini doğru ve eksiksiz bir şekilde yerine getirebilmek adına, iyi bir takım çalışması planı ve işin evrelere ayrılarak tamamlanmasını sağlarlar. Bu şekilde çizilen plan sayesinde, eksiksiz ve hatasız çalışmalar meydana gelir. Her yazılım firmasının uyguladığı yazılım geliştirme modelleri varsa da, genel hatlarıyla işin bölünme şekli aşağıdaki gibidir.\n\n"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#8B008B"/>
+
+
+    <TextView
+        android:text="*Geliştirilmesi planlanan yazılım hakkında geniş ve kapsamlı bir doküman çalışması yerine getirilmesi\n
+*Yazılımın nihayetinde elde edilecek olan programın görsel tasarımın yapılması\n
+*Program ürününün gerçekleştirimi\n
+*Programın çalışabilirliğinin kontrol edilmesi\n
+*Programın bakımının yapılması\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:textColor="#8B008B"
+        android:textSize="17dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/modules"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Yazılım Süreci Modelleri\n
+        1.Barok Modeli\n
+        2.Şelale Modeli\n
+        3.İteratif Model\n
+        4.Spiral Model\n
+        5.V modeli\n
+        6.Agile Model\n
+        "
+        android:layout_marginTop="20dp"
+        android:textColor="#8B008B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="17dp"/>
+
+
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+

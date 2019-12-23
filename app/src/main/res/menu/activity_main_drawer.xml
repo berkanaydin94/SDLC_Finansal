@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="SDLC Nedir" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SDLC MODELLERİ"/>
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/pen"
+            android:title="Bt Sözlük" />
+        <item
+            android:id="@+id/kelimelerim"
+            android:icon="@drawable/pen"
+            android:title="Kelimelerim" />
+
+    </group>
+
+    <item android:title="Modeller"
+        android:menuCategory="container">
+        <menu >
+
+        <item
+            android:id="@+id/barok"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Barok" />
+
+
+            <item
+                android:id="@+id/waterfall"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Waterfall" />
+           <item
+               android:id="@+id/iterative"
+               android:icon="@drawable/ic_menu_send"
+               android:title="iterative" />
+           <item
+               android:id="@+id/spiral"
+               android:icon="@drawable/ic_menu_send"
+               android:title="Spiral" />
+
+        <item
+               android:id="@+id/agile"
+               android:icon="@drawable/ic_menu_send"
+               android:title="Agile" />
+
+        </menu>
+
+        </item>
+</menu>

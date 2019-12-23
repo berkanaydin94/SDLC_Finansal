@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"  >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#fa0a00"
+        android:layout_height="wrap_content"
+
+        android:text="Barok Modeli "
+        android:lines="2"
+        android:textColor="#FFF"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8B008B"
+        android:layout_marginTop="20dp"
+        android:text="Bu modelde yazılım yaşam döngüsünün temel adımları doğrusal bir biçimde takip edilir. Daha çok 1970'li yıllarda kullanılmış bir yöntemdir. Adımlar arası ilişkilerin tanımlı olmadığı bir yöntemdir. Günümüzde pek kullanılmayan bir yöntemdir. Bunun en büyük nedeni ise Belgeleme adımının bu modelde ayrı bir adım gibi ele alınıp yazılımın geliştirilmesi ve testinin ardından yapılmasıdır. Günümüzde kullanılan modellere aykırı bir durumdur. Günümüzde tercih edilen modellerde Belgeleme geliştirilen yazılımın ürünü olarak kabul edilmektedir. Ayrıca Gerçekleştirme adımını daha fazla ağırlık veren bir modeldir.\n"
+    />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/software"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8B008B"
+        android:layout_marginTop="20dp"
+        android:text="Barok Modelinin adımları:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8B008B"
+        android:layout_marginTop="20dp"
+        android:text="*İnceleme\n*Analiz\n*Tasarım\n*Kodlama\n*Modül Testleri\n*Altsistem Testleri\n*Sistem Testi\n*Belgeleme\n*Kurulum\n"/>
+</LinearLayout>
+</ScrollView>
